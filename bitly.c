@@ -32,6 +32,30 @@
 #include "prefs.h"
 #include "version.h"
 
+#include <time.h>
+
+#include <cmds.h>
+#include <conversation.h>
+#include <signals.h>
+#include <debug.h>
+
+#include <stdio.h>
+#include <stdlib.h>
+
+#include <curl/curl.h>
+#include <curl/types.h>
+#include <curl/easy.h>
+
+#include <glib.h>
+
+#define PREFS_BASE "/plugins/core/bitly_shorturl"
+#define PREFS_ACCOUNT PREFS_BASE "/account"
+#define PREFS_APIKEY  PREFS_BASE "/apikey"
+
+static PurpleCmdId bitly_cmd_id;
+static GString * bitly_url;
+static CURL * curl_handle;
+
 static PurplePluginPrefFrame *
 get_plugin_pref_frame (PurplePlugin * plugin) {
 	PurplePluginPrefFrame * frame = purple_plugin_pref_frame_new();
@@ -48,15 +72,89 @@ get_plugin_pref_frame (PurplePlugin * plugin) {
 	return frame;
 }
 
+static size_t
+curl_write_cb (char * data, size_t size, size_t nmemb, void * buffer) {
+	GString * string = (GString *)buffer;
+	g_string_append (string, data);
+	return string->len;						
+}
+
+static GString *
+process_url (const char * login, const char * apiKey, GString * longUrl) {
+	char * url = NULL, * end = NULL;
+	
+	g_string_printf (bitly_url, "http://api.bit.ly/shorten?version=2.0.1&login=%s&apiKey=%s&longUrl=%s",
+						  login, apiKey, longUrl->str);
+
+	/* Use libcurl to do all the fancy HTTP requests that we need in order for this bad boy
+	 * to work correctly. */
+	curl_easy_setopt (curl_handle, CURLOPT_USERAGENT, "purple-bitly/0.1");
+	curl_easy_setopt (curl_handle, CURLOPT_URL, bitly_url->str);
+	curl_easy_setopt (curl_handle, CURLOPT_WRITEFUNCTION, curl_write_cb);
+	curl_easy_setopt (curl_handle, CURLOPT_WRITEDATA, (void *)longUrl);
+	curl_easy_perform (curl_handle);
+	curl_easy_cleanup (curl_handle);
+
+	/* Extract the http://bit.ly URL from the JSON returned back. Add four characters for the
+	 * offset, e.g. "shortUrl": "http://bit.ly/x1059" and then find position of the quote at end. */
+	url = strstr (longUrl->str, "shortUrl") + 4;
+	g_string_assign (longUrl, url);
+
+	/* A little hack, look away! */
+	end = strstr (longUrl->str, "\"");
+	*end = 0;
+
+	return longUrl;
+}
+
+
+static PurpleCmdRet
+purple_cmd_bitly (PurpleConversation * conv, const char * cmd, char ** args, char * error, void * data) {
+	PurpleCmdStatus ret;
+	GString * str = g_string_new (args[0]);
+	char * newcmd = NULL;
+
+	if (args[0]) {
+		const char * login = purple_prefs_get_string (PREFS_ACCOUNT);
+		const char * apiKey = purple_prefs_get_string (PREFS_APIKEY);
+		
+		str = process_url (login, apiKey, str);
+	}
+
+	newcmd = g_strdup_printf ("say %s", str->str);
+	
+	ret = purple_cmd_do_command (conv, newcmd, newcmd, &error);
+
+	free (newcmd);
+	g_string_free (str, TRUE);
+
+	return ret;
+}
+
 static gboolean
 plugin_load (PurplePlugin * plugin) {
-	/* STUB: Connect any callbacks here, initialize libcurl, etc. */
-	return TRUE;
+		const char * help = _("bitly: replaces the argument URL with one through the bit.ly service");
+
+		curl_global_init (CURL_GLOBAL_ALL);
+		
+		bitly_url = g_string_new("");
+		curl_handle = curl_easy_init();
+		bitly_cmd_id = purple_cmd_register ("bitly", "wws", PURPLE_CMD_P_PLUGIN,
+														PURPLE_CMD_FLAG_IM | PURPLE_CMD_FLAG_CHAT |
+														PURPLE_CMD_FLAG_ALLOW_WRONG_ARGS,
+														NULL, PURPLE_CMD_FUNC (purple_cmd_bitly), help, NULL);
+		return TRUE;
 }
 
 static gboolean
 plugin_unload (PurplePlugin * plugin) {
-	/* STUB: Deinitialize libcurl, etc */
+	purple_cmd_unregister (bitly_cmd_id);
+
+	curl_global_cleanup();
+	
+	free (curl_handle);
+	g_string_free (bitly_url, TRUE);
+	
 	return TRUE;
 }
 
@@ -89,7 +187,7 @@ static PurplePluginInfo info = {
 	"http://thunkbrightly.com/",
 
 	plugin_load,                                                
-	NULL,
+	plugin_unload,
 	NULL,
 
 	NULL,
@@ -105,9 +203,9 @@ static PurplePluginInfo info = {
 
 static void
 init_plugin (PurplePlugin * plugin) {
-	purple_prefs_add_none ("/plugins/core/bitly_urlshort");
-	purple_prefs_add_string ("/plugins/core/bitly_urlshort/account", "");
-	purple_prefs_add_string ("/plugins/core/bitly_urlshort/apikey", "");
+	purple_prefs_add_none (PREFS_BASE);
+	purple_prefs_add_string (PREFS_ACCOUNT, "");
+	purple_prefs_add_string (PREFS_APIKEY, "");
 }
 
 PURPLE_INIT_PLUGIN (bitlyurlshort, init_plugin, info)
