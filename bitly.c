@@ -48,10 +48,6 @@
 
 #include <glib.h>
 
-#define PREFS_BASE "/plugins/core/bitly_shorturl"
-#define PREFS_ACCOUNT PREFS_BASE "/account"
-#define PREFS_APIKEY  PREFS_BASE "/apikey"
-
 static PurpleCmdId bitly_cmd_id;
 static GString * bitly_url;
 static CURL * curl_handle;
@@ -76,7 +72,7 @@ static size_t
 curl_write_cb (char * data, size_t size, size_t nmemb, void * buffer) {
 	GString * string = (GString *)buffer;
 	g_string_append (string, data);
-	return string->len;						
+	return size * nmemb;						
 }
 
 static GString *
@@ -94,15 +90,18 @@ process_url (const char * login, const char * apiKey, GString * longUrl) {
 	curl_easy_setopt (curl_handle, CURLOPT_WRITEDATA, (void *)longUrl);
 	curl_easy_perform (curl_handle);
 	curl_easy_cleanup (curl_handle);
-
+	
 	/* Extract the http://bit.ly URL from the JSON returned back. Add four characters for the
 	 * offset, e.g. "shortUrl": "http://bit.ly/x1059" and then find position of the quote at end. */
-	url = strstr (longUrl->str, "shortUrl") + 4;
-	g_string_assign (longUrl, url);
+	if (NULL != (url = strstr (longUrl->str, "shortUrl"))) {
+		if (NULL != (url = strstr (url, "http://"))) {
+			g_string_assign (longUrl, url);
 
-	/* A little hack, look away! */
-	end = strstr (longUrl->str, "\"");
-	*end = 0;
+			end = strstr (longUrl->str, "\"");
+
+			g_string_truncate (longUrl, (end - longUrl->str));
+		}
+	}
 
 	return longUrl;
 }
@@ -115,19 +114,18 @@ purple_cmd_bitly (PurpleConversation * conv, const char * cmd, char ** args, cha
 	char * newcmd = NULL;
 
 	if (args[0]) {
-		const char * login = purple_prefs_get_string (PREFS_ACCOUNT);
-		const char * apiKey = purple_prefs_get_string (PREFS_APIKEY);
+		const char * login = purple_prefs_get_string ("/plugins/core/bitly_urlshort/account");
+		const char * apiKey = purple_prefs_get_string ("/plugins/core/bitly_urlshort/apikey");
 		
 		str = process_url (login, apiKey, str);
-	}
 
-	newcmd = g_strdup_printf ("say %s", str->str);
+		newcmd = g_strdup_printf ("say %s", str->str);
 	
-	ret = purple_cmd_do_command (conv, newcmd, newcmd, &error);
+		ret = purple_cmd_do_command (conv, newcmd, newcmd, &error);
 
-	free (newcmd);
-	g_string_free (str, TRUE);
-
+		free (newcmd);
+		g_string_free (str, TRUE);
+	}
 	return ret;
 }
 
@@ -203,9 +201,9 @@ static PurplePluginInfo info = {
 
 static void
 init_plugin (PurplePlugin * plugin) {
-	purple_prefs_add_none (PREFS_BASE);
-	purple_prefs_add_string (PREFS_ACCOUNT, "");
-	purple_prefs_add_string (PREFS_APIKEY, "");
+	purple_prefs_add_none ("/plugins/core/bitly_urlshort");
+	purple_prefs_add_string ("/plugins/core/bitly_urlshort/account", "");
+	purple_prefs_add_string ("/plugins/core/bitly_urlshort/apikey", "");
 }
 
 PURPLE_INIT_PLUGIN (bitlyurlshort, init_plugin, info)
