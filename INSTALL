@@ -1,0 +1,30 @@
+purple-bitly -- Bit.ly Short URL Plugin for libpurple/Pidgin
+by John Bellone <jb@thunkbrightly>
+
+COMPILATION
+
+	To compile this bad boy from scratch you are going to need a couple
+of libraries that are freely available. The first, which is probably the most
+obvious, is a copy of an up-to-date Pidgin source tree. You will not need to
+replace your installation of Pidgin, but you do need the source in order to
+compile cleanly. 
+
+	http://www.pidgin.im/
+
+	The second dependency is libcurl, which is avaiable on most Linux
+installations already, but may not be for other platforms. This library makes
+sending HTTP requests in C/C++ much, much easier. 
+
+	http://curl.haxx.se/
+
+	So now that you have the two dependencies for this plugin getting the
+sucker to actually compile is very simple. I am going to segement the 
+instructions below for all the different systems as I am able to get a 
+successful build working on the platform/compiler vendor in question.
+
+(1) Linux
+
+ a. Drop the bitly.c file into the pidgin/libpurple/plugins directory.
+ b. make bitly.c LDFLAGS+='curl-config --libs'
+ c. cp bitly.so ~/.purple/plugins
+
