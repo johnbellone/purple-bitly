@@ -1,0 +1,21 @@
+purple-bitly -- Bit.ly Short URL Plugin for libpurple/Pidgin
+by John Bellone <jb@thunkbrightly.com>
+
+SUMMARY
+	This plugin was designed during the snow storm of December 2009. The
+purpose of the plugin is simple: I wanted the ability to use my bit.ly account
+to shorten a URL that I want to send to a friend during an instant messenger
+conversation. Because the bit.ly service includes access to the stellar REST
+API over HTTP I was able to develop this very quickly.
+
+    	 Pidgin plugins are quite easy to install, but a little bit more of
+a pain in the ass to actually get compiled. The documentation is a little
+sparse (and outdated) but the gentlemen (and women) on the Pidgin IRC channel
+got me up to speed better than any Wiki could ever. Kudos for them for their
+quick answers.
+
+MAINTAINER
+	
+	John Bellone <jb@thunkbrightly.com>
+
+	http://github.com/johnbellone/purple-bitly
