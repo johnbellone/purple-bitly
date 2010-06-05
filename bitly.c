@@ -229,7 +229,7 @@ static PurplePluginInfo info = {
     "URL shortener plugin which utilizes the bit.ly API",
     "URL shortener plugin which utilizes the bit.ly API",
     "John Bellone <jb@thunkbrightly.com>",
-    "http://thunkbrightly.com/",
+    "http://wiki.github.com/johnbellone/purple-bitly",
 
     plugin_load,                                                
     plugin_unload,
