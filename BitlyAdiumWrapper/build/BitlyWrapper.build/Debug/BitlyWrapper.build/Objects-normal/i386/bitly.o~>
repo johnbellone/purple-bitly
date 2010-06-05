@@ -1,0 +1,1020 @@
+In file included from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:102:21: error: gmodule.h: No such file or directory
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:125:18: error: glib.h: No such file or directory
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:136:25: error: glib/gstdio.h: No such file or directory
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:152:25: error: glib-object.h: No such file or directory
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:38: error: expected declaration specifiers or '...' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:38: warning: type defaults to 'int' in declaration of 'gboolean'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:38: error: 'gboolean' declared as function returning a function
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/signals.h:30,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:34,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:150,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/value.h:97: error: field 'boolean_data' declared as a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/value.h:104: error: expected specifier-qualifier-list before 'gint64'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/value.h:225: error: 'purple_value_is_outgoing' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/value.h:305: error: expected declaration specifiers or '...' before 'gint64'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/value.h:313: error: expected declaration specifiers or '...' before 'guint64'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/value.h:380: error: 'purple_value_get_boolean' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/value.h:443: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_value_get_int64'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/value.h:452: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_value_get_uint64'
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:34,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:150,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/signals.h:82: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_signal_register'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/signals.h:134: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_signal_connect_priority'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/signals.h:154: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_signal_connect'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/signals.h:180: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_signal_connect_priority_vargs'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/signals.h:203: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_signal_connect_vargs'
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/pluginpref.h:51,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:51,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:150,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prefs.h:63: error: expected declaration specifiers or '...' before 'gconstpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prefs.h:63: error: expected declaration specifiers or '...' before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prefs.h:133: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prefs.h:152: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prefs.h:198: error: expected declaration specifiers or '...' before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prefs.h:230: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prefs.h:246: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prefs.h:255: error: 'purple_prefs_exists' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prefs.h:271: error: 'purple_prefs_get_bool' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prefs.h:295: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prefs.h:311: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prefs.h:323: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prefs.h:337: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_prefs_connect_callback'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prefs.h:343: error: expected ')' before 'callback_id'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prefs.h:358: error: 'purple_prefs_load' declared as function returning a function
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:51,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:150,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/pluginpref.h:90: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/pluginpref.h:204: error: expected declaration specifiers or '...' before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/pluginpref.h:212: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/pluginpref.h:244: error: 'purple_plugin_pref_get_masked' declared as function returning a function
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:150,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:86: error: expected specifier-qualifier-list before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:135: error: expected specifier-qualifier-list before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:153: error: field 'native_plugin' declared as a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:154: error: field 'loaded' declared as a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:161: error: field 'unloadable' declared as a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:162: error: expected specifier-qualifier-list before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:204: error: expected specifier-qualifier-list before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:287: error: 'purple_plugin_register' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:299: error: 'purple_plugin_load' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:311: error: 'purple_plugin_unload' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:335: error: 'purple_plugin_reload' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:351: error: 'purple_plugin_is_loaded' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:365: error: 'purple_plugin_is_unloadable' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:374: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:383: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:392: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:401: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:410: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:419: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:428: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:454: error: 'purple_plugin_ipc_register' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:484: error: 'purple_plugin_ipc_get_params' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:521: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:567: error: 'purple_plugins_enabled' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:676: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:686: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/plugin.h:693: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:151,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:93: error: expected specifier-qualifier-list before 'gpointer'
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:38,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:110,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:133,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:151,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/imgstore.h:63: error: expected ')' before 'data'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/imgstore.h:96: error: expected ')' before 'data'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/imgstore.h:116: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_imgstore_get_data'
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:148,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:72,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:39,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:110,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:133,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:151,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/log.h:55: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/log.h:72: error: expected specifier-qualifier-list before 'gsize'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/log.h:173: error: field 'buddy' declared as a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/log.h:250: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/log.h:268: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/log.h:276: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/log.h:319: error: 'purple_log_is_deletable' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/log.h:327: error: 'purple_log_delete' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/log.h:348: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_log_compare'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/log.h:357: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_log_set_compare'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/log.h:408: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/log.h:462: error: 'purple_log_common_deleter' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/log.h:477: error: 'purple_log_common_is_deletable' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/log.h:552: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:149,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:72,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:39,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:110,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:133,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:151,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/server.h:62: error: expected declaration specifiers or '...' before 'guint'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/server.h:77: error: expected declaration specifiers or '...' before 'guint'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/server.h:88: error: expected declaration specifiers or '...' before 'guint'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/server.h:148: error: expected declaration specifiers or '...' before 'GHashTable'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/server.h:154: error: expected declaration specifiers or '...' before 'GHashTable'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/server.h:169: error: expected declaration specifiers or '...' before 'GHashTable'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/server.h:190: error: expected declaration specifiers or '...' before 'GHashTable'
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:72,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:39,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:110,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:133,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:151,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:202: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:215: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:230: error: 'has_focus' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:233: error: 'custom_smiley_add' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:235: warning: type defaults to 'int' in declaration of 'guchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:235: error: expected ';', ',' or ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:236: error: expected ';' before 'void'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:259: error: expected specifier-qualifier-list before 'guint'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:273: error: expected specifier-qualifier-list before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:298: error: field 'buddy' declared as a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:304: error: expected specifier-qualifier-list before 'GHashTable'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:339: error: field 'logging' declared as a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:341: error: expected specifier-qualifier-list before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:534: error: 'purple_conversation_is_logging' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:581: error: expected declaration specifiers or '...' before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:591: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_conversation_get_data'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:600: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:607: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:614: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:676: error: 'purple_conversation_has_focus' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:704: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:837: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_conv_im_get_typing_timeout'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:883: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_conv_im_get_send_typed_timeout'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:918: error: 'purple_conv_present_error' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:972: error: 'purple_conv_custom_smiley_add' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:986: warning: type defaults to 'int' in declaration of 'guchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:986: error: expected ';', ',' or ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:1029: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:1039: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:1065: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:1074: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:1102: error: 'purple_conv_chat_is_user_ignored' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:1200: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:1200: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:1201: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:1232: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:1243: error: 'purple_conv_chat_find_user' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:1332: error: 'purple_conv_chat_has_left' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:1380: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:1401: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:1401: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:1422: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:1437: warning: type defaults to 'int' in declaration of 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/conversation.h:1437: error: expected ';', ',' or ')' before '*' token
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:73,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:39,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:110,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:133,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:151,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/ft.h:92: error: expected specifier-qualifier-list before 'gssize'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/ft.h:136: error: expected specifier-qualifier-list before 'guint'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/ft.h:221: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/ft.h:313: error: 'purple_xfer_is_canceled' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/ft.h:322: error: 'purple_xfer_is_completed' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/ft.h:498: error: expected declaration specifiers or '...' before 'gssize'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/ft.h:507: error: expected declaration specifiers or '...' before 'gssize'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/ft.h:516: warning: type defaults to 'int' in declaration of 'guchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/ft.h:516: error: expected ';', ',' or ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/ft.h:578: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_xfer_read'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/ft.h:589: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_xfer_write'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/ft.h:704: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_xfer_get_thumbnail'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/ft.h:713: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/ft.h:725: error: expected declaration specifiers or '...' before 'gconstpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/ft.h:726: error: expected declaration specifiers or '...' before 'gsize'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/ft.h:726: warning: type defaults to 'int' in declaration of 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/ft.h:726: error: expected ';', ',' or ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/ft.h:737: warning: type defaults to 'int' in declaration of 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/ft.h:737: error: expected ';', ',' or ')' before '*' token
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/candidate.h:30,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:30,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:75,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:39,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:110,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:133,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:151,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/enum-types.h:42: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'typedef'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/enum-types.h:113: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_media_candidate_type_get_type'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/enum-types.h:122: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_media_caps_get_type'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/enum-types.h:131: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_media_info_type_get_type'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/enum-types.h:140: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_media_network_protocol_get_type'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/enum-types.h:149: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_media_session_type_get_type'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/enum-types.h:158: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_media_state_changed_get_type'
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:30,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:75,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:39,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:110,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:133,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:151,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/candidate.h:34: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'G_BEGIN_DECLS'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/candidate.h:53: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_media_candidate_get_type'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/candidate.h:69: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/candidate.h:84: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/candidate.h:96: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/candidate.h:105: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/candidate.h:116: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/candidate.h:127: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_media_candidate_get_component_id'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/candidate.h:138: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/candidate.h:149: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_media_candidate_get_port'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/candidate.h:162: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/candidate.h:175: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_media_candidate_get_base_port'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/candidate.h:187: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/candidate.h:198: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_media_candidate_get_priority'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/candidate.h:209: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_media_candidate_get_candidate_type'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/candidate.h:223: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/candidate.h:236: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/candidate.h:247: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_media_candidate_get_ttl'
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:31,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:75,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:39,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:110,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:133,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:151,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/codec.h:33: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'typedef'
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:46,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/codec.h:35,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:31,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:75,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:39,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:110,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:133,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:151,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../xmlnode.h:61: error: expected specifier-qualifier-list before 'GHashTable'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../xmlnode.h:129: error: expected declaration specifiers or '...' before 'gssize'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../xmlnode.h:315: error: expected declaration specifiers or '...' before 'gssize'
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/codec.h:35,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:31,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:75,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:39,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:110,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:133,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:151,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../notify.h:42: error: expected ')' before 'user_data'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../notify.h:93: error: expected specifier-qualifier-list before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../notify.h:126: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../notify.h:127: error: expected declaration specifiers or '...' before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../notify.h:163: error: expected declaration specifiers or '...' before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../notify.h:213: error: expected declaration specifiers or '...' before 'PurpleNotifyCloseCallback'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../notify.h:214: error: expected declaration specifiers or '...' before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../notify.h:293: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../notify.h:313: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_notify_searchresults_get_rows_count'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../notify.h:334: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_notify_searchresults_get_columns_count'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../notify.h:356: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../notify.h:404: error: expected declaration specifiers or '...' before 'PurpleNotifyCloseCallback'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../notify.h:405: error: expected declaration specifiers or '...' before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../notify.h:423: error: expected declaration specifiers or '...' before 'PurpleNotifyCloseCallback'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../notify.h:424: error: expected declaration specifiers or '...' before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../notify.h:448: error: expected declaration specifiers or '...' before 'PurpleNotifyCloseCallback'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../notify.h:448: error: expected declaration specifiers or '...' before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../notify.h:469: error: expected declaration specifiers or '...' before 'PurpleNotifyCloseCallback'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../notify.h:469: error: expected declaration specifiers or '...' before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../notify.h:487: error: expected declaration specifiers or '...' before 'PurpleNotifyCloseCallback'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../notify.h:488: error: expected declaration specifiers or '...' before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../notify.h:522: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../notify.h:648: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../notify.h:665: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/codec.h:35,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:31,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:75,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:39,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:110,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:133,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:151,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:58: error: expected specifier-qualifier-list before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:72: error: expected specifier-qualifier-list before 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:89: error: expected declaration specifiers or '...' before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:89: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:121: error: expected declaration specifiers or '...' before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:160: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:177: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:191: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:212: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:229: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:250: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:435: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:454: error: expected declaration specifiers or '...' before 'GData'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:454: error: 'purple_markup_find_tag' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:485: error: 'purple_markup_extract_info_field' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:572: error: expected declaration specifiers or '...' before 'guint'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:572: error: expected declaration specifiers or '...' before 'guint'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:619: warning: type defaults to 'int' in declaration of 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:619: error: expected ';', ',' or ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:630: error: 'purple_markup_is_rtl' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:647: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:693: error: expected declaration specifiers or '...' before 'gssize'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:693: error: 'purple_util_write_data_to_file' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:713: error: expected declaration specifiers or '...' before 'gssize'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:713: error: 'purple_util_write_data_to_file_absolute' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:759: error: expected ')' before 'data'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:764: error: expected ')' before 'image_data'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:773: error: expected ')' before 'image_data'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:790: error: 'purple_program_is_valid' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:797: error: 'purple_running_gnome' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:804: error: 'purple_running_kde' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:811: error: 'purple_running_osx' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:843: error: 'purple_socket_speaks_ipv4' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:866: warning: type defaults to 'int' in declaration of 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:866: error: expected ';', ',' or ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:910: error: 'purple_str_has_prefix' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:921: error: 'purple_str_has_suffix' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:931: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:980: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1022: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1054: error: expected ')' before 'sec'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1069: error: expected declaration specifiers or '...' before 'guint'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1093: error: 'purple_url_parse' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1110: error: expected declaration specifiers or '...' before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1110: warning: type defaults to 'int' in declaration of 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1110: error: expected ';', ',' or ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1159: warning: type defaults to 'int' in declaration of 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1159: error: expected ';', ',' or ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1181: warning: type defaults to 'int' in declaration of 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1181: error: expected ';', ',' or ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1205: warning: type defaults to 'int' in declaration of 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1205: error: expected ';', ',' or ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1247: error: 'purple_email_is_valid' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1259: error: 'purple_ip_address_is_valid' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1269: error: 'purple_ipv4_address_is_valid' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1279: error: 'purple_ipv6_address_is_valid' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1290: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1304: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1322: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1333: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1347: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1359: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1386: error: 'purple_utf8_has_word' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1407: error: expected declaration specifiers or '...' before 'gssize'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1407: error: 'purple_message_meify' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1475: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/../util.h:1483: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:31,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:75,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:39,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:110,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:133,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:151,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/codec.h:56: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'GType'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/codec.h:70: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/codec.h:82: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_media_codec_get_id'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/codec.h:93: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/codec.h:104: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_media_codec_get_clock_rate'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/codec.h:115: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_media_codec_get_channels'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/codec.h:128: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/codec.h:139: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/codec.h:150: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/codec.h:165: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/codec.h:177: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/codec.h:188: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/codec.h:197: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media/codec.h:208: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:75,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:39,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:110,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:133,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:151,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:37: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'G_BEGIN_DECLS'
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:75,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:39,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:110,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:133,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:151,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:63: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_media_get_type'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:74: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:85: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:96: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_media_get_prpl_data'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:106: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:117: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:128: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:142: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:165: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:180: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:191: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:203: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:215: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:229: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:278: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:292: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:306: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:318: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:331: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:345: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:357: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:369: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:384: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_media_set_output_window'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/media.h:395: error: expected ')' before '*' token
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/proxy.h:30,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:77,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:39,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:110,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:133,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:151,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/eventloop.h:38: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'typedef'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/eventloop.h:50: error: expected ')' before 'PurpleInputCondition'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/eventloop.h:85: error: expected specifier-qualifier-list before 'guint'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/eventloop.h:178: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_timeout_add'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/eventloop.h:198: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_timeout_add_seconds'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/eventloop.h:207: error: expected ')' before 'handle'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/eventloop.h:220: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_input_add'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/eventloop.h:229: error: expected ')' before 'handle'
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:77,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:39,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:110,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:133,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:151,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/proxy.h:62: error: expected ')' before 'data'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/proxy.h:257: error: expected declaration specifiers or '...' before 'PurpleProxyConnectFunction'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/proxy.h:257: error: expected declaration specifiers or '...' before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/proxy.h:286: error: expected declaration specifiers or '...' before 'PurpleProxyConnectFunction'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/proxy.h:286: error: expected declaration specifiers or '...' before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/proxy.h:312: error: expected declaration specifiers or '...' before 'PurpleProxyConnectFunction'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/proxy.h:312: error: expected declaration specifiers or '...' before 'gpointer'
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:79,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:39,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:110,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:133,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:151,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/roomlist.h:71: error: expected specifier-qualifier-list before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/roomlist.h:84: error: expected specifier-qualifier-list before 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/roomlist.h:95: error: expected specifier-qualifier-list before 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/roomlist.h:106: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/roomlist.h:174: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/roomlist.h:196: error: 'purple_roomlist_get_in_progress' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/roomlist.h:248: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/roomlist.h:266: warning: type defaults to 'int' in declaration of 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/roomlist.h:266: error: expected ';', ',' or ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/roomlist.h:276: error: expected declaration specifiers or '...' before 'gconstpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/roomlist.h:317: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/roomlist.h:338: warning: type defaults to 'int' in declaration of 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/roomlist.h:338: error: expected ';', ',' or ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/roomlist.h:368: error: 'purple_roomlist_field_get_hidden' declared as function returning a function
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:81,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:39,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:110,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:133,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:151,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/whiteboard.h:50: error: expected specifier-qualifier-list before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/whiteboard.h:86: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/whiteboard.h:159: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/whiteboard.h:170: error: 'purple_whiteboard_get_dimensions' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/whiteboard.h:198: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/whiteboard.h:245: error: 'purple_whiteboard_get_brush' declared as function returning a function
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:39,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:110,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:133,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:151,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:107: error: field 'required' declared as a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:108: error: field 'is_int' declared as a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:111: error: field 'secret' declared as a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:126: error: expected specifier-qualifier-list before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:220: error: expected specifier-qualifier-list before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h: In function 'purple_prpl_got_account_status':
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:802: error: expected declaration specifiers before 'G_GNUC_NULL_TERMINATED'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:858: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'G_GNUC_NULL_TERMINATED'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:892: error: expected declaration specifiers before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:908: error: expected declaration specifiers or '...' before 'guint'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:920: error: expected declaration specifiers or '...' before 'guint'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:933: error: expected declaration specifiers or '...' before 'guint'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/prpl.h:957: error: 'purple_prpl_initiate_media' declared as function returning a function
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:110,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:133,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:151,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:107: error: expected declaration specifiers or '...' before 'guchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:148: error: expected declaration specifiers before 'gconstpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:257: error: expected declaration specifiers or '...' before 'guchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:281: error: 'purple_buddy_icons_node_has_custom_icon' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:318: error: expected declaration specifiers or '...' before 'guchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:336: warning: type defaults to 'int' in declaration of 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:336: error: expected ';', ',' or ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:347: error: 'purple_buddy_icons_has_custom_icon' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:368: error: expected declaration specifiers or '...' before 'guchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/buddyicon.h:387: error: 'purple_buddy_icons_is_caching' declared as function returning a function
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:133,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:151,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:130: error: expected specifier-qualifier-list before 'GHashTable'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:133: warning: empty declaration
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:139: error: field 'node' has incomplete type
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:148: warning: empty declaration
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:154: error: field 'node' has incomplete type
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:160: error: field 'priority_valid' declared as a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:161: warning: empty declaration
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:168: error: field 'node' has incomplete type
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:173: warning: empty declaration
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:180: error: field 'node' has incomplete type
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:182: error: expected specifier-qualifier-list before 'GHashTable'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:184: warning: empty declaration
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:191: error: expected specifier-qualifier-list before 'GHashTable'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:193: warning: empty declaration
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:264: warning: empty declaration
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:316: error: expected declaration specifiers before 'GSList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:325: error: expected declaration specifiers before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:334: error: expected ')' before 'ui_data'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:409: error: expected declaration specifiers before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:419: error: expected declaration specifiers or '...' before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:531: error: expected declaration specifiers or '...' before 'GHashTable'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:628: error: expected declaration specifiers before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:641: error: expected declaration specifiers or '...' before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:805: error: 'purple_contact_on_account' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:948: error: expected declaration specifiers before 'GSList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:998: error: expected declaration specifiers before 'GHashTable'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:1017: error: expected declaration specifiers before 'GSList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:1027: error: 'purple_group_on_account' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:1140: error: 'purple_blist_node_get_bool' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/blist.h:1227: error: expected declaration specifiers before 'GList'
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:151,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:265: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'G_GNUC_NULL_TERMINATED'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:323: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'G_GNUC_NULL_TERMINATED'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:377: error: 'purple_status_type_is_saveable' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:388: error: 'purple_status_type_is_user_settable' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:400: error: 'purple_status_type_is_independent' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:409: error: 'purple_status_type_is_exclusive' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:420: error: 'purple_status_type_is_available' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:453: error: expected declaration specifiers before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:464: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:583: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:682: error: 'purple_status_is_independent' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:694: error: 'purple_status_is_exclusive' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:708: error: 'purple_status_is_available' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:717: error: 'purple_status_is_active' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:726: error: 'purple_status_is_online' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:748: error: 'purple_status_get_attr_boolean' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:781: error: expected declaration specifiers before 'gint'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:859: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:962: error: expected declaration specifiers before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:993: error: 'purple_presence_is_available' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:1002: error: 'purple_presence_is_online' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:1015: error: 'purple_presence_is_status_active' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:1029: error: 'purple_presence_is_status_primitive_active' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:1040: error: 'purple_presence_is_idle' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/status.h:1070: error: expected declaration specifiers before 'gint'
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:152,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/sslconn.h:35: error: storage class specified for parameter 'PurpleSslErrorType'
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/sslconn.h:37,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:152,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:47: error: storage class specified for parameter 'PurpleCertificateVerificationStatus'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:49: error: storage class specified for parameter 'PurpleCertificate'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:50: error: storage class specified for parameter 'PurpleCertificatePool'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:51: error: storage class specified for parameter 'PurpleCertificateScheme'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:52: error: storage class specified for parameter 'PurpleCertificateVerifier'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:53: error: storage class specified for parameter 'PurpleCertificateVerificationRequest'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:61: error: expected ')' before 'st'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:72: error: expected specifier-qualifier-list before 'PurpleCertificateScheme'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:75: warning: empty declaration
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:86: error: expected specifier-qualifier-list before 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:135: warning: empty declaration
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:152: error: expected specifier-qualifier-list before 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:264: warning: empty declaration
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:282: error: expected specifier-qualifier-list before 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:313: warning: empty declaration
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:323: error: expected specifier-qualifier-list before 'PurpleCertificateVerifier'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:351: warning: empty declaration
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:382: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:395: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:411: error: expected declaration specifiers before 'PurpleCertificate'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:420: error: expected declaration specifiers before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:429: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:437: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:450: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:471: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:489: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:498: error: expected declaration specifiers before 'PurpleCertificate'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:508: error: expected declaration specifiers before 'GSList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:519: warning: type defaults to 'int' in declaration of 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:519: error: expected ';', ',' or ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:530: error: expected declaration specifiers before 'GByteArray'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:539: error: expected declaration specifiers before 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:549: error: expected declaration specifiers before 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:561: error: expected declaration specifiers before 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:571: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:584: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:603: error: expected declaration specifiers before 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:616: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:626: error: expected declaration specifiers before 'PurpleCertificateScheme'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:636: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:644: error: expected declaration specifiers before 'PurpleCertificate'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:658: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:668: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:677: error: expected declaration specifiers before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:686: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:710: error: expected declaration specifiers before 'gpointer'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:717: error: expected declaration specifiers before 'PurpleCertificateScheme'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:726: error: expected declaration specifiers before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:738: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:748: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:755: error: expected declaration specifiers before 'PurpleCertificateVerifier'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:764: error: expected declaration specifiers before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:774: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:783: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:790: error: expected declaration specifiers before 'PurpleCertificatePool'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:799: error: expected declaration specifiers before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:809: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:818: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/certificate.h:830: error: expected ')' before '*' token
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:152,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/sslconn.h:43: error: storage class specified for parameter 'PurpleSslConnection'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/sslconn.h:45: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/sslconn.h:47: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/sslconn.h:59: error: expected specifier-qualifier-list before 'PurpleSslInputFunction'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/sslconn.h:80: warning: empty declaration
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/sslconn.h:94: error: 'init' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/sslconn.h:103: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/sslconn.h:108: error: expected ';' before 'void'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/sslconn.h:141: error: storage class specified for parameter 'PurpleSslOps'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/sslconn.h:157: error: 'purple_ssl_is_supported' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/sslconn.h:165: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/sslconn.h:184: error: expected declaration specifiers before 'PurpleSslConnection'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/sslconn.h:208: error: expected declaration specifiers before 'PurpleSslConnection'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/sslconn.h:228: error: expected declaration specifiers before 'PurpleSslConnection'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/sslconn.h:248: error: expected declaration specifiers before 'PurpleSslConnection'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/sslconn.h:262: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/sslconn.h:270: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/sslconn.h:281: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/sslconn.h:292: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/sslconn.h:304: error: expected declaration specifiers before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/sslconn.h:318: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/sslconn.h:325: error: expected declaration specifiers before 'PurpleSslOps'
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:47,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:241: error: storage class specified for parameter 'PurpleConnectionUiOps'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:256: error: expected specifier-qualifier-list before 'GSList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:276: warning: empty declaration
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:508: error: expected declaration specifiers or '...' before 'PurpleSslErrorType'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:531: error: 'purple_connection_error_is_fatal' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:551: error: expected declaration specifiers before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:558: error: expected declaration specifiers before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:586: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/connection.h:593: error: expected declaration specifiers before 'PurpleConnectionUiOps'
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:49,
+                 from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/privacy.h:39: error: storage class specified for parameter 'PurplePrivacyType'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/privacy.h:61: error: storage class specified for parameter 'PurplePrivacyUiOps'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/privacy.h:74: error: 'purple_privacy_permit_add' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/privacy.h:87: error: 'purple_privacy_permit_remove' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/privacy.h:100: error: 'purple_privacy_deny_add' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/privacy.h:113: error: 'purple_privacy_deny_remove' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/privacy.h:169: error: 'purple_privacy_check' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/privacy.h:176: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/privacy.h:183: error: expected declaration specifiers before 'PurplePrivacyUiOps'
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/internal.h:166,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:31:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:60: error: storage class specified for parameter 'PurpleAccountRequestType'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:112: warning: empty declaration
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:125: error: field 'remember_pass' declared as a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:130: error: field 'disconnecting' declared as a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:132: error: expected specifier-qualifier-list before 'GHashTable'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:161: warning: empty declaration
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:310: error: expected declaration specifiers or '...' before 'GCallback'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:311: error: expected declaration specifiers or '...' before 'GCallback'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:428: error: expected declaration specifiers or '...' before 'PurplePrivacyType'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:436: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:445: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'G_GNUC_NULL_TERMINATED'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:466: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:590: error: 'purple_account_is_connected' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:599: error: 'purple_account_is_connecting' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:608: error: 'purple_account_is_disconnected' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:694: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:703: error: 'purple_account_get_remember_password' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:712: error: 'purple_account_get_check_mail' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:724: error: 'purple_account_get_enabled' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:744: error: expected declaration specifiers before 'PurplePrivacyType'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:816: error: 'purple_account_is_status_active' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:825: error: expected declaration specifiers before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:862: error: 'purple_account_get_bool' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:902: error: 'purple_account_get_ui_bool' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:940: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:963: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:964: error: expected declaration specifiers or '...' before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:990: error: 'purple_account_supports_offline_message' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:1049: error: expected declaration specifiers or '...' before 'gint'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:1056: error: expected declaration specifiers before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/account.h:1065: error: expected declaration specifiers before 'GList'
+In file included from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:35:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/version.h:53: error: expected ')' before 'required_major'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/version.h:62: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_major_version'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/version.h:71: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_minor_version'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/version.h:81: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_micro_version'
+In file included from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:39:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/cmds.h:42: error: storage class specified for parameter 'PurpleCmdStatus'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/cmds.h:55: error: storage class specified for parameter 'PurpleCmdRet'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/cmds.h:63: error: expected declaration specifiers or '...' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/cmds.h:63: warning: type defaults to 'int' in declaration of 'gchar'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/cmds.h:63: error: expected ';', ',' or ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/cmds.h:69: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'PurpleCmdId'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/cmds.h:80: error: storage class specified for parameter 'PurpleCmdPriority'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/cmds.h:97: error: storage class specified for parameter 'PurpleCmdFlag'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/cmds.h:161: error: expected declaration specifiers before 'PurpleCmdId'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/cmds.h:173: error: expected ')' before 'id'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/cmds.h:193: error: expected declaration specifiers before 'PurpleCmdStatus'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/cmds.h:209: error: expected declaration specifiers before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/cmds.h:223: error: expected declaration specifiers before 'GList'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/cmds.h:230: error: expected declaration specifiers before 'gpointer'
+In file included from /Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/debug.h:30,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:42:
+/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h:43: error: storage class specified for parameter '__gnuc_va_list'
+In file included from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:42:
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/debug.h:44: error: storage class specified for parameter 'PurpleDebugLevel'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/debug.h:51: error: expected ')' before 'level'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/debug.h:53: error: expected ';' before 'gboolean'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/debug.h:60: error: storage class specified for parameter 'PurpleDebugUiOps'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/debug.h:76: error: expected ')' before 'level'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/debug.h:90: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'G_GNUC_PRINTF'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/debug.h:103: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'G_GNUC_PRINTF'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/debug.h:116: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'G_GNUC_PRINTF'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/debug.h:129: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'G_GNUC_PRINTF'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/debug.h:142: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'G_GNUC_PRINTF'
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/debug.h:156: error: 'purple_debug_is_enabled' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/debug.h:176: error: 'purple_debug_is_verbose' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/debug.h:196: error: 'purple_debug_is_unsafe' declared as function returning a function
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/debug.h:211: error: expected ')' before '*' token
+/Users/jbellone/Development/adium/Frameworks/libpurple.framework/Versions/Current/Headers/debug.h:219: error: expected declaration specifiers before 'PurpleDebugUiOps'
+In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curlbuild.h:124,
+                 from /Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:35,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:47:
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/inttypes.h:268: error: storage class specified for parameter 'imaxabs'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/inttypes.h:274: error: storage class specified for parameter 'imaxdiv_t'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/inttypes.h:276: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'imaxdiv'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/inttypes.h:279: error: storage class specified for parameter 'strtoimax'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/inttypes.h:280: error: storage class specified for parameter 'strtoumax'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/inttypes.h:290: error: storage class specified for parameter 'wcstoimax'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/inttypes.h:291: error: storage class specified for parameter 'wcstoumax'
+In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:35,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:47:
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curlbuild.h:138: error: storage class specified for parameter 'curl_off_t'
+In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:36,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:47:
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curlrules.h:134: error: storage class specified for parameter '__curl_rule_01__'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curlrules.h:144: error: storage class specified for parameter '__curl_rule_02__'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curlrules.h:154: error: storage class specified for parameter '__curl_rule_03__'
+In file included from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:47:
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:94: error: storage class specified for parameter 'CURL'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:128: error: storage class specified for parameter 'curl_socket_t'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:172: error: storage class specified for parameter 'curl_progress_callback'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:187: error: storage class specified for parameter 'curl_write_callback'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:196: error: expected declaration specifiers or '...' before 'curl_off_t'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:197: error: storage class specified for parameter 'curl_seek_callback'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:202: error: storage class specified for parameter 'curl_read_callback'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:207: error: storage class specified for parameter 'curlsocktype'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:210: error: expected declaration specifiers or '...' before 'curl_socket_t'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:211: error: expected declaration specifiers or '...' before 'curlsocktype'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:211: error: storage class specified for parameter 'curl_sockopt_callback'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:224: error: expected declaration specifiers or '...' before '*' token
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:225: error: expected declaration specifiers or '...' before 'curlsocktype'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:226: error: storage class specified for parameter 'curl_socket_t'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:226: error: 'curl_socket_t' declared as function returning a function
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:226: error: conflicting types for 'curl_socket_t'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:128: error: previous definition of 'curl_socket_t' was here
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:233: error: storage class specified for parameter 'curl_passwd_callback'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:241: error: storage class specified for parameter 'curlioerr'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:247: error: storage class specified for parameter 'curliocmd'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:249: error: expected declaration specifiers or '...' before '*' token
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:249: error: expected ')' before '*' token
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:259: error: storage class specified for parameter 'curl_malloc_callback'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:260: error: storage class specified for parameter 'curl_free_callback'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:261: error: storage class specified for parameter 'curl_realloc_callback'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:262: error: storage class specified for parameter 'curl_strdup_callback'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:263: error: storage class specified for parameter 'curl_calloc_callback'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:275: error: storage class specified for parameter 'curl_infotype'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:278: error: expected ')' before '*' token
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:400: error: storage class specified for parameter 'CURLcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:454: error: expected declaration specifiers or '...' before '*' token
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:454: error: storage class specified for parameter 'CURLcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:454: error: 'CURLcode' declared as function returning a function
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:454: error: conflicting types for 'CURLcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:400: error: previous definition of 'CURLcode' was here
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:456: error: expected declaration specifiers or '...' before '*' token
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:456: error: expected ')' before '*' token
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:473: error: storage class specified for parameter 'curl_proxytype'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:501: error: storage class specified for parameter 'curl_usessl'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:523: error: storage class specified for parameter 'curl_ftpccc'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:531: error: storage class specified for parameter 'curl_ftpauth'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:542: error: storage class specified for parameter 'curl_ftpcreatedir'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:551: error: storage class specified for parameter 'curl_ftpmethod'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1216: error: storage class specified for parameter 'CURLoption'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1308: error: storage class specified for parameter 'curl_TimeCond'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1356: error: storage class specified for parameter 'CURLformoption'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1362: error: expected specifier-qualifier-list before 'CURLformoption'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1394: error: storage class specified for parameter 'CURLFORMcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1405: error: expected declaration specifiers before 'CURLFORMcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1417: error: storage class specified for parameter 'curl_formget_callback'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1430: error: expected declaration specifiers or '...' before 'curl_formget_callback'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1468: error: expected ')' before '*' token
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1488: error: expected ')' before '*' token
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1515: error: expected declaration specifiers before 'CURLcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1530: error: expected declaration specifiers before 'CURLcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1640: error: storage class specified for parameter 'CURLINFO'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1656: error: storage class specified for parameter 'curl_closepolicy'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1682: error: storage class specified for parameter 'curl_lock_data'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1690: error: storage class specified for parameter 'curl_lock_access'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1692: error: expected ')' before '*' token
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1696: error: expected ')' before '*' token
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1700: error: storage class specified for parameter 'CURLSH'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1709: error: storage class specified for parameter 'CURLSHcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1720: error: storage class specified for parameter 'CURLSHoption'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1722: error: expected declaration specifiers before 'CURLSH'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1723: error: expected declaration specifiers before 'CURLSHcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1724: error: expected declaration specifiers before 'CURLSHcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1736: error: storage class specified for parameter 'CURLversion'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1746: error: expected specifier-qualifier-list before 'CURLversion'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1771: error: storage class specified for parameter 'curl_version_info_data'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1796: error: expected declaration specifiers before 'curl_version_info_data'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1829: error: expected declaration specifiers before 'CURLcode'
+In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1846,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:47:
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/easy.h:29: error: expected declaration specifiers before 'CURL'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/easy.h:30: error: expected declaration specifiers before 'CURLcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/easy.h:31: error: expected declaration specifiers before 'CURLcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/easy.h:32: error: expected ')' before '*' token
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/easy.h:47: error: expected declaration specifiers before 'CURLcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/easy.h:62: error: expected declaration specifiers before 'CURL'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/easy.h:75: error: expected ')' before '*' token
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/easy.h:85: error: expected declaration specifiers before 'CURLcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/easy.h:96: error: expected declaration specifiers before 'CURLcode'
+In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/curl.h:1847,
+                 from /Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:47:
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/multi.h:56: error: storage class specified for parameter 'CURLM'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/multi.h:69: error: storage class specified for parameter 'CURLMcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/multi.h:81: error: storage class specified for parameter 'CURLMSG'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/multi.h:84: error: expected specifier-qualifier-list before 'CURLMSG'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/multi.h:91: error: storage class specified for parameter 'CURLMsg'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/multi.h:100: error: expected declaration specifiers before 'CURLM'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/multi.h:109: error: expected declaration specifiers before 'CURLMcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/multi.h:119: error: expected declaration specifiers before 'CURLMcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/multi.h:131: error: expected declaration specifiers before 'CURLMcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/multi.h:153: error: expected declaration specifiers before 'CURLMcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/multi.h:166: error: expected declaration specifiers before 'CURLMcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/multi.h:196: error: expected declaration specifiers before 'CURLMsg'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/multi.h:231: error: expected ')' before '*' token
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/multi.h:248: error: expected ')' before '*' token
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/multi.h:253: error: expected declaration specifiers before 'CURLMcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/multi.h:256: error: expected declaration specifiers before 'CURLMcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/multi.h:261: error: expected declaration specifiers before 'CURLMcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/multi.h:280: error: expected declaration specifiers before 'CURLMcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/multi.h:316: error: storage class specified for parameter 'CURLMoption'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/multi.h:326: error: expected declaration specifiers before 'CURLMcode'
+/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl/multi.h:339: error: expected declaration specifiers before 'CURLMcode'
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:53: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'bitly_cmd_id'
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:54: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:55: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:63: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:87: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:103: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:145: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'purple_cmd_bitly'
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:173: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:193: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:206: error: storage class specified for parameter 'prefs_info'
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:206: error: parameter 'prefs_info' is initialized
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:207: error: 'get_plugin_pref_frame' undeclared (first use in this function)
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:207: error: (Each undeclared identifier is reported only once
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:207: error: for each function it appears in.)
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:217: error: storage class specified for parameter 'info'
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:217: error: parameter 'info' is initialized
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:224: warning: excess elements in struct initializer
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:224: warning: (near initialization for 'info')
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:225: warning: excess elements in struct initializer
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:225: warning: (near initialization for 'info')
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:226: warning: excess elements in struct initializer
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:226: warning: (near initialization for 'info')
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:227: warning: excess elements in struct initializer
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:227: warning: (near initialization for 'info')
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:228: error: 'DISPLAY_VERSION' undeclared (first use in this function)
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:228: warning: excess elements in struct initializer
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:228: warning: (near initialization for 'info')
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:229: warning: excess elements in struct initializer
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:229: warning: (near initialization for 'info')
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:230: warning: excess elements in struct initializer
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:230: warning: (near initialization for 'info')
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:231: warning: excess elements in struct initializer
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:231: warning: (near initialization for 'info')
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:232: warning: excess elements in struct initializer
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:232: warning: (near initialization for 'info')
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:234: error: 'plugin_load' undeclared (first use in this function)
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:234: warning: excess elements in struct initializer
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:234: warning: (near initialization for 'info')
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:235: error: 'plugin_unload' undeclared (first use in this function)
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:235: warning: excess elements in struct initializer
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:235: warning: (near initialization for 'info')
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:236: warning: excess elements in struct initializer
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:236: warning: (near initialization for 'info')
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:238: warning: excess elements in struct initializer
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:238: warning: (near initialization for 'info')
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:239: warning: excess elements in struct initializer
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:239: warning: (near initialization for 'info')
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:240: warning: excess elements in struct initializer
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:240: warning: (near initialization for 'info')
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:241: warning: excess elements in struct initializer
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:241: warning: (near initialization for 'info')
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:243: warning: excess elements in struct initializer
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:243: warning: (near initialization for 'info')
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:244: warning: excess elements in struct initializer
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:244: warning: (near initialization for 'info')
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:245: warning: excess elements in struct initializer
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:245: warning: (near initialization for 'info')
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:247: warning: excess elements in struct initializer
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:247: warning: (near initialization for 'info')
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:250: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:256: error: 'purple_init_bitlyurlshort_plugin' declared as function returning a function
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:256: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:256: error: old-style parameter declarations in prototyped function definition
+/Users/jbellone/Development/purple-bitly/BitlyAdiumWrapper/../bitly.c:256: error: expected '{' at end of input
